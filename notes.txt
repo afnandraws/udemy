@@ -1,0 +1,13 @@
+RULES OF HOOKS
+
+1. You must only call React Hooks in React Functions (React Component Functions and Custom Hooks)
+2. Must only call React Hooks at the Top Level(not in nested functions, not in block functions)
+3. Make sure to list the dependencies in useEffect(), you dont need to put functions in the dependencies array
+
+
+HAVE A LOOK AT USEREDUCER AGAIN
+HAVE A LOOK AT USEIMPERATIVEHANDLER
+
+ForwardRefs are used to affect information in a child component based on the read information
+In lecture 129 he used it to see if an input field was invalid or incorrect and then that input field would be focused.
+ForwardRef was needed because the Input.js needed to be accessed
